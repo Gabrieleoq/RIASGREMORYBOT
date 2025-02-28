@@ -19,15 +19,15 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
 global.devs = "2348086541281";
 global.sudo = process.env.SUDO || "2348086541281";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.owner = process.env.OWNER_NUMBER || "400771048185";
 global.style = process.env.STYLE || "1";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/84a935261759d92084744.mp4";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/4611sj.jpg";
 global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -42,7 +42,7 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUV1MEY5cmNjdXpaZjdhdmhaYVY1SXZyU3BqalYzSTg4UStYekIwRTMxST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ25BUXgxdVFaQjZaak85RHp0Sm8yOHlxclp5SnBPWlZJNG02eHNZYXpBYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXSWlsSEp3V0ZmTm5KT2JPNGZSR0YwVnB1OXNaUXJueFJBd0NHYjNoeDNVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ0WjJ0OTV3emZzdnBOT2Z2QUJzeG9nWGRZM2NoSTJBZmpyMnJOL3lHNjFBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNONVNEdDMrQ0tZMFRaNDVlS3ZrTkdialZWLzhUdGRSYm9iVENDZWhnVlk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZNVy9CVU44ZnRETmpKSGg1VHc0L0wyNGRKVGVtNXUyUVlsTjBlOW1yalE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMEM2M0pPYnZMVTFnTnl4RmlhaU1YRW9kZXNmTGVIejRoTHB5T2l3dFBGUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYWtGMEdXbFdiT25QWWE1RkRnOVRoZDhHOWVCdU1oNDJ1MWNxd0VoL1gyYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFrWXIwUmkvZVZqaTBjQlp4dm1qUzlxUXN0MlFQdWFQd3pHeWN5MnZEOU5HbHVlNTM2Z3JOeHY3Z1RJTXZsSnFvRVY2OXZuaE51N2pVc3Fzd2xLS2pBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NjMsImFkdlNlY3JldEtleSI6IlgwQW5hUmVsck1uU0ErNGFzQjYzendMMFJBc1R0c0pFRlk2TnYwSzZSSVU9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkdDOTFsSlEzVGphVzFDRzF6SlFDanciLCJwaG9uZUlkIjoiMWQ4N2ViYWUtOTI5Yy00MmQxLWFkNmYtMjRkYjNmN2NjNjgyIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im5ic0E2Y0M0L2hTeU45QWFRZFJlZ29qejR4RT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHalVvaWQwMXpXaitNOS9SQlRHVmxNMCtTNWc9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiMUhYWVI3MU0iLCJtZSI6eyJpZCI6IjQwNzcxMDQ4MTg1Ojg1QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKU1g4TkFHRUxMUGhyNEdHQVFnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJZRXVkQU5jWmxPUTJxSHpHL0tkVmdTK0NLR01VWXRJanJ4WDJpQU05b3hZPSIsImFjY291bnRTaWduYXR1cmUiOiJFYzdyei9wTUNRcWRHd3JIblN1RWVXeEZ2R0paTTN2di9MelZaaDNTNE0wamwzWERnbUFOTnFVY1NhbTBsYytTNXh1a1FBWW5pS1B3c2hnTVRZTmNDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiYnVaeWhTV3A0cEFTUy8rR0hSUmF6NTdnNnR1Q2Vwa09aeEg2QUM5K3o4d21BL1ZlTEZQNG1TKy93bmdrcE5qNHFSbUtKOEFPK0s1clpXVlVHazFxZ0E9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI0MDc3MTA0ODE4NTo4NUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJXQkxuUURYR1pUa05xaDh4dnluVllFdmdpaGpGR0xTSTY4VjlvZ0RQYU1XIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzQwNzQ0NjQwfQ=="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "RIAS").toUpperCase(),
 };
 global.rank = "updated";
